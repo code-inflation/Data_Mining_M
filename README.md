@@ -6,10 +6,6 @@ the [Mittuniversitetet](https://www.miun.se/).
 
 ---
 
-**Overview:**
-
-
-
 **Contributors:**
 
   * [Bürgi Robin](https://github.com/code-inflation) 
