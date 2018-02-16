@@ -41,6 +41,7 @@ irisCluster <- kmeans(irisData[,1:4], length(unique(irisData[,5])))
 irisCluster
 table(irisCluster$cluster, irisData$C)
 irisCluster$cluster <- as.factor(irisCluster$cluster)
+ggplot(irisData, aes(SL, SW, color = irisCluster$cluster,shape=C)) + geom_point() +labs(color='Cluster', shape='Class',x ='Sepal length in cm', y ='Sepal width in cm')
 ggplot(irisData, aes(PL, PW, color = irisCluster$cluster,shape=C)) + geom_point() +labs(color='Cluster', shape='Class',x ='Petal length in cm', y ='Petal width in cm')
 
 # kNN
