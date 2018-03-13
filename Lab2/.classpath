@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Naive Bayes/src"/>
+	<classpathentry kind="lib" path="Naive Bayes/lib/weka-src.jar"/>
+	<classpathentry kind="lib" path="Naive Bayes/lib/weka.jar"/>
+	<classpathentry kind="output" path="Naive Bayes/bin"/>
+</classpath>
